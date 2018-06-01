@@ -1,0 +1,13 @@
+C:\Program Files (x86)\EasyPHP-12.1\www\my portable files
+
+/*
+pasos para programar
+ahora le das click
+derecho sobre el icono de easyphp
+que debe estar en la barra de iconos de tareas
+en la opcion de local web
+cuando le des click alli
+te va a brir una pagina en internet
+alli localizas el archivo
+le das un click
+y ella automaticamente se abre

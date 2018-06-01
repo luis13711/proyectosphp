@@ -1,0 +1,8 @@
+instalar 
+mysql-server
+mysql-workbench
+php5-mysql
+libapache2-mod-auth-mysql
+estas podrian estar de mas
+libapache2-mod-log-sql-mysql
+

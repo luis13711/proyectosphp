@@ -1,0 +1,105 @@
+Opciones de soporte para Base de Datos
+El PHP tiene soporte nativo para 
+bastantes bases de datos (así como 
+para ODBC):
+
+Adabas D
+--with-adabas=DIR
+Compila con soporte para Adabas D. 
+El parámetro es el directorio de 
+instalación de Adabas D y por
+defecto vale /usr/local/adabasd.
+Página de Adabas 
+(http://www.adabas.com/)
+
+dBase
+--with-dbase
+Habilita el soporte integrado para 
+DBase. No se precisan librerías 
+externas.
+
+filePro
+--with-filepro
+Habilita el soporte integrado de sólo 
+lectura para filePro. No se precisan 
+librerías externas.
+
+mSQL
+--with-msql=DIR
+Habilita el soporte para mSQL. El 
+parámetro es el directorio de 
+instalación de mSQL y por defecto vale
+/usr/local/Hughes. Este es el 
+directorio por defecto de la 
+distribución mSQL 2.0. configure detecta
+automáticamente qué versión de mSQL 
+está ejecutándose y el PHP soporta 
+tanto 1.0 como 2.0, pero si
+compila el PHP con mSQL 1.0 sólo 
+podrá acceder a bases de datos de esa 
+versión y viceversa.
+Vea también Directivas de 
+Configuración de mSQL en el archivo 
+de configuración.
+Página de mSQL (http://www.hughes.com.au)
+
+MySQL
+--with-mysql=DIR
+Habilita el soporte para MySQL. El parámetro es el directorio de instalación de MySQL y por defecto
+vale /usr/local. Este es el directorio de instalación de la distribución de MySQL.
+Vea también Directivas de Configuración de MySQL en el archivo de configuración.
+Página de MySQL (http://www.tcx.se)
+
+iODBC
+--with-iodbc=DIR
+Incluye soporte para iODBC. Esta característica se desarrolló inicialmente para el iODBC Driver
+Manager, un gestor de controlador de ODBC de redistribución libre que ese ejecuta bajo varios sabores
+de UNIX. El parámetro es el directorio de instalación de iODBC y por defecto vale /usr/local.
+Página de FreeODBC (http://users.ids.net/~bjepson/freeODBC/) o página de iODBC
+(http://www.iodbc.org)
+
+OpenLink ODBC
+--with-openlink=DIR
+Incluye soporte para OpenLink ODBC. El parámetro es el directorio de instalación de OpenLink ODBC
+y por defecto vale /usr/local/openlink.
+Página de OpenLink Software (http://www.openlinksw.com/)
+
+Oracle
+--with-oracle=DIR
+Incluye soporte para Oracle. Se ha probado y debería funcionar al menos con las versiones de la 7.0 a la
+7.3. El parámetro es el directorio ORACLE_HOME. No necesita especificar este parámetro si su entorno
+de Oracle ya está ajustado.
+Página de Oracle (http://www.oracle.com)
+
+
+PostgreSQL
+--with-pgsql=DIR
+Incluye soporte para PostgreSQL. El parámetro es el directorio base de la instalación de PostgreSQL y
+por defecto vale /usr/local/pgsql.
+Vea también Directivas de Configuración de Postgres en el archivo de configuración.
+Página de PostgreSQL (http://www.postgreSQL.org/)
+
+Solid
+--with-solid=DIR
+Incluye soporte para Solid. El parámetro es el directorio de instalación y vale por defecto
+/usr/local/solid.
+Página de Solid (http://www.solidtech.com)
+
+Sybase
+--with-sybase=DIR
+Incluye soporte para Sybase. El parámetro es el directorio de instalación y vale por defecto
+/home/sybase.
+Vea también Directivas de Configuración de Sybase en el archivo de configuración.
+Página de Sybase (http://www.sybase.com)
+
+Sybase-CT
+--with-sybase-ct=DIR
+Incluye soporte para Sybase-CT. El parámetro es el directorio de instalación de Sybase-CT y por defecto
+vale /home/sybase.
+Vea también Directovas de Configuración de Sybase-CT en el archivo de configuración.
+
+Velocis
+--with-velocis=DIR
+Incluye soporte para Velocis. El parámetro es el directorio de instalación de Velocis y vale por defecto
+/usr/local/velocis.
+Página de Velocis (http://www.raima.com)

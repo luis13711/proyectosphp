@@ -1,0 +1,16 @@
+En Windows se encuentra presente en c:/xampp/apache/conf/httpd.conf 
+Si tienen el XAMPP instalado sobre la C.
+
+
+En Mac podremos encontrarlo en /Applications/XAMPP/xamppfiles/etc/httpd.conf.
+
+
+
+
+Una vez allí es necesario cambiar dos configuraciones.
+
+# DocumentRoot: The directory out of which you will serve your
+# documents. By default, all requests are taken from this directory, but
+# symbolic links and aliases may be used to point to other locations.
+#
+DocumentRoot "/Ruta/A/Mi/Nuevo/HTDOCS"

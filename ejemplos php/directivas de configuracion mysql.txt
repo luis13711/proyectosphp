@@ -1,0 +1,16 @@
+Directivas de Configuración de MySQL
+mysql.allow_persistent boolean
+Si permitir o no conexiones MySQL persistentes.
+mysql.default_host string
+El servidor por defecto para utilizar cuando se conecte al servidor de bases de datos si no se
+especifica otro distinto.
+mysql.default_user string
+El nombre de usuario por defecto para utilizar cuando se conecta al servidor de base de datos si no
+se especifica otro.
+mysql.default_password string
+La clave por defecto para utilizar cuando se conecta al servidor de base de datos si no se especifica
+otro.
+mysql.max_persistent integer
+El número máximo de conexiones persistentes de MySQL por proceso.
+mysql.max_links integer
+El número máximo de conexiones de MySQL por proceso, incluyendo las persistentes

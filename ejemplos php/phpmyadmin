@@ -1,0 +1,6 @@
+instalar
+phpmyadmin
+Web server to reconfigure automatically: <– Elejimos apache2
+Configure database for phpmyadmin with dbconfig-common?<– No
+
+esta guardado en /etc/phpmyadmin/config.inc.php para modificar

@@ -1,0 +1,9 @@
+php5
+php5-curl aun no se para que
+php5-gd para graficos
+libphp-phpmailer para enviar correos con archivos adjuntos
+libapache2-mod-php5 para conectar con apache
+
+despues de instalar apache2 y php5 y crear el info.php con el texto
+dentro de phpinfo();
+tenemos que reiniciar el servidor asi etc/init.d/apache2 restart

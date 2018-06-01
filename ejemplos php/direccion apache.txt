@@ -1,0 +1,29 @@
+/etc/apache2/apache2.conf
+la direccion /var/www/
+
+Reiniciar Apache:
+
+    # sudo /etc/init.d/apache2 restart
+
+Parar/Arrancar:
+
+    # sudo /etc/init.d/apache2 stop
+    # sudo /etc/init.d/apache2 start
+
+cambiar directorios
+/etc/apache2/sites-available/000-default.conf
+DocumentRoot /var/www
+DocumentRoot /media/luis13711/Para datos Nueva/Google Drive/htdocs
+/etc/apache2/sites-available/default-ssl.conf
+DocumentRoot /var/www
+DocumentRoot /media/luis13711/Para datos Nueva/Google Drive/htdocs
+/etc/apache2/apache2.conf
+#<Directory /var/www/>
+<Directory /media/luis13711/Para datos Nueva/Google Drive/htdocs/>
+	Options Indexes FollowSymLinks
+	AllowOverride None
+	Require all granted
+</Directory>
+
+autenticar
+sudo a2ensite /etc/apache2/sites-available/misitio 

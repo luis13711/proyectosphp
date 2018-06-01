@@ -1,0 +1,64 @@
+-------------------------------------------
+---------------------------------------------
+--------------------------------------------
+Laravel
+----------------------------------------------------
+--------------------------------------------------
+----------------------------------------------------
+Ultima versión de Laravel actualmente composer.json
+--------------------------------------------------------------------------------------------
+https://raw.githubusercontent.com/laravel/laravel/master/composer.json
+
+
+-----------------------------------
+----------------------------------
+Funciones en laravel
+------------------------------------
+-----------------------------------
+Foto de perfil
+---------------------------------------
+Requiere javascript
+https://www.google.co.ve/search?q=foto+de+perfil+en+laravel&ie=utf-8&oe=utf-8&gws_rd=cr&ei=BLDcVsGzMYSueqWfqegE
+
+--------------------------------------
+Messenger en laravel
+--------------------------------------
+https://github.com/cmgmyr/laravel-messenger
+
+----------------------------------------
+Pruebas de integración
+-----------------------------------------
+https://mattstauffer.co/blog/better-integration-testing-in-laravel-5.1-powerful-integration-tests-in-a-few-lines
+https://laravel.com/docs/5.2/testing
+
+----------------------------------------------
+Laravel Shopping Cart
+---------------------------------------------
+https://github.com/Crinsane/LaravelShoppingcart
+
+---------------------------
+PDF con laravel
+---------------------------------
+https://styde.net/generar-pdf-en-laravel-5-1-con-dompdf/
+https://htmlpdfapi.com/blog/free_html5_invoice_templates
+https://github.com/barryvdh/laravel-dompdf
+https://htmlpdfapi.com/blog/html_to_pdf_ready_invoice_templates
+
+---------------------------
+Emails en Laravel 5
+------------------------------------
+http://learninglaravel.net/learn-to-send-emails-using-gmail-and-sendgrid-in-laravel-5
+https://github.com/Maatwebsite/Laravel-Excel
+
+--------------------------------
+Excel
+-------------------------------
+http://enlawebdekaaf.blogspot.com/p/laravel.html
+
+------------------------------------
+Manuales Laravel
+-----------------------------------
+http://www.desarrolloweb.com/manuales/manual-laravel-5.html
+
+
+
