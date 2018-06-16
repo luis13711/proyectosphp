@@ -1,0 +1,13 @@
+
+
+-------------------------------
+Iteración 0: Pasos de instalación
+---------------------------------
+https://phpunit.de/getting-started/phpunit-7.html
+
+./vendor/bin/phpunit --bootstrap vendor/autoload.php src/SumaTests
+./vendor/bin/phpunit --bootstrap vendor/autoload.php --testdox tests
+
+No funciona
+phpunit --bootstrap ./Matematicas.php ./SumaTests
+

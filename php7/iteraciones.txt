@@ -1,0 +1,15 @@
+
+
+----------------------
+------------------------
+
+----------------------
+-----------------------
+op_fusion.php
+http://localhost:8080/proyectosphp/php7/index.php?usuario=pedropicapiedra
+
+valores por defecto
+
+clousure call
+
+declaraciones de tipo
